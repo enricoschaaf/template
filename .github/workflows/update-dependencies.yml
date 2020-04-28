@@ -13,4 +13,5 @@ jobs:
     - uses: actions/setup-node@v1
     - run: npm i -g npm-check-updates
     - run: ncu -u
+    - run: git config user.name "enricoschaaf"
     - run: git commit -m "Update dependencies"
