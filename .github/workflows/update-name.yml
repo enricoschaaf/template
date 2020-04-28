@@ -1,0 +1,20 @@
+name: Update name
+
+on:
+  create:
+    branches: [ master ]
+
+jobs:
+  update-name:
+
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+    - run: npm i -g json
+    - run: json -f package.json -e "this.name='$GITHUB_REPOSITORY'"
+    - run: git config user.name $GITHUB_ACTOR
+    - run: git add package.json
+    - run: git commit -m "Update name"
+    - run: git remote add github "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
+    - run: git push
