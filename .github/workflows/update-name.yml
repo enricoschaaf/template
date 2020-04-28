@@ -13,6 +13,7 @@ jobs:
     - uses: actions/setup-node@v1
     - run: npm i -g json
     - run: json -I -f package.json -e "this.name='$GITHUB_REPOSITORY'"
+    - run: git config user.name $GITHUB_ACTOR
     - run: git pull
     - run: git add package.json
     - run: git commit -m "Update name"
