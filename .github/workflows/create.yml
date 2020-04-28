@@ -1,11 +1,11 @@
-name: Update dependencies
+name: Update name and dependencies
 
 on:
   create:
     branches: [ master ]
 
 jobs:
-  create:
+  update-name-and-dependencies:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
