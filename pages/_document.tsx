@@ -8,7 +8,7 @@ class MyDocument extends Document {
           <meta name="description" content="Meta description" />
           <link
             rel="preload"
-            href="https://rsms.me/inter/font-files/Inter.var.woff2?3.13"
+            href="https://rsms.me/inter/font-files/Inter.var.woff2"
             as="font"
             type="font/woff2"
             crossOrigin="anonymous"
