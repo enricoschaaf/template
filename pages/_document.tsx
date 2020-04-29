@@ -6,6 +6,8 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta name="description" content="Meta description" />
+          <meta name="theme-color" content="#f4f5f7" />
+          <link rel="icon" type="image/svg+xml" href="favicon.svg" />
           <link
             rel="preload"
             href="https://rsms.me/inter/font-files/Inter.var.woff2"
@@ -14,7 +16,7 @@ class MyDocument extends Document {
             crossOrigin="anonymous"
           />
         </Head>
-        <body>
+        <body className="bg-gray-100 text-gray-900">
           <Main />
           <NextScript />
         </body>
