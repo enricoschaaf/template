@@ -1,4 +1,4 @@
 module.exports = {
-  experimental: { reactRefresh: true },
+  experimental: { reactMode: "concurrent", reactRefresh: true },
   reactStrictMode: true
 }
