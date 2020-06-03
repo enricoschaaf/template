@@ -10,10 +10,9 @@ class MyDocument extends Document {
           <link rel="icon" type="image/svg+xml" href="favicon.svg" />
           <link
             rel="preload"
-            href="https://rsms.me/inter/font-files/Inter.var.woff2"
+            href="/Inter.var.latin.woff2"
             as="font"
             type="font/woff2"
-            crossOrigin="anonymous"
           />
         </Head>
         <body className="bg-gray-100 text-gray-900">
