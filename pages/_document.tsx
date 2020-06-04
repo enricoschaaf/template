@@ -13,6 +13,7 @@ class MyDocument extends Document {
             href="/Inter.var.latin.woff2"
             as="font"
             type="font/woff2"
+            crossOrigin="anonymous"
           />
         </Head>
         <body className="bg-gray-100 text-gray-900">
