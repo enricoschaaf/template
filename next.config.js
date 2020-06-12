@@ -1,4 +1,6 @@
-module.exports = {
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const withPrefresh = require("@prefresh/next")
+module.exports = withPrefresh({
   reactStrictMode: true,
   experimental: {
     modern: true,
@@ -36,4 +38,4 @@ module.exports = {
 
     return config
   }
-}
+})
