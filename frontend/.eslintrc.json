@@ -52,8 +52,7 @@
       "node": {
         "paths": ["."]
       }
-    },
-    "no-html-link-for-pages": { "node": { "paths": ["./frontend/"] } }
+    }
   },
   "overrides": [
     {
