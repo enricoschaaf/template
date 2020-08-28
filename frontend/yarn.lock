@@ -1115,6 +1115,11 @@
     hex-rgb "^4.1.0"
     postcss-selector-parser "^6.0.2"
 
+"@tailwindui/react@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@tailwindui/react/-/react-0.1.0.tgz#a6a82b9436875684b0ad1b3fce22fb7ab68b7d4b"
+  integrity sha512-WxMDrhE0fW7xM3ScHlPUOgKIcEM9WtEATwHy+ryER7B8x9adntn/OowH6j9mdohRH/rfsZo5aa82hKlFNSXFDg==
+
 "@types/color-name@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"

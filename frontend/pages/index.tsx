@@ -5,7 +5,6 @@ const Index = () => (
     <Head>
       <title>Title</title>
     </Head>
-    <div>Index</div>
   </>
 )
 
