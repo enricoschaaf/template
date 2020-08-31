@@ -1115,10 +1115,10 @@
     hex-rgb "^4.1.0"
     postcss-selector-parser "^6.0.2"
 
-"@tailwindui/react@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@tailwindui/react/-/react-0.1.0.tgz#a6a82b9436875684b0ad1b3fce22fb7ab68b7d4b"
-  integrity sha512-WxMDrhE0fW7xM3ScHlPUOgKIcEM9WtEATwHy+ryER7B8x9adntn/OowH6j9mdohRH/rfsZo5aa82hKlFNSXFDg==
+"@tailwindui/react@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@tailwindui/react/-/react-0.1.1.tgz#0376d4080bb260e3e8dd116349d85dfaa7628ec6"
+  integrity sha512-2VoUokHT/EYHaWQjH49gwKqYtwii7snb1SIp93ewfuI9fSy4x6DYocs4v4WNfyiE971ixc/PT+cs6tCi+zabSA==
 
 "@types/color-name@^1.1.1":
   version "1.1.1"
@@ -1166,10 +1166,15 @@
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
   integrity sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==
 
-"@types/node@*", "@types/node@^14.6.1":
+"@types/node@*":
   version "14.6.1"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.6.1.tgz#fdf6f6c6c73d3d8eee9c98a9a0485bc524b048d7"
   integrity sha512-HnYlg/BRF8uC1FyKRFZwRaCPTPYKa+6I8QiUZFLredaGOou481cgFS4wKRFyKvQtX8xudqkSdBczJHIYSQYKrQ==
+
+"@types/node@^14.6.2":
+  version "14.6.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.6.2.tgz#264b44c5a28dfa80198fc2f7b6d3c8a054b9491f"
+  integrity sha512-onlIwbaeqvZyniGPfdw/TEhKIh79pz66L1q06WUQqJLnAb6wbjvOtepLYTGHTqzdXgBYIE3ZdmqHDGsRsbBz7A==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -6166,10 +6171,10 @@ table@^5.2.3:
     slice-ansi "^2.1.0"
     string-width "^3.0.0"
 
-tailwindcss@^1.7.5:
-  version "1.7.5"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-1.7.5.tgz#4a54ffcc5691822cbc20416242e92505728f79b7"
-  integrity sha512-thDHLkRioJh0/62EFcEfQCCBEsZXpluehymrPzn8Hkycy8uI9svvtOqyWtcfkBPB0s5yb6R2tY9zPzh5mIr0Wg==
+tailwindcss@^1.7.6:
+  version "1.7.6"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-1.7.6.tgz#77f294428e399fb570f4bebde2e9bef98456de8a"
+  integrity sha512-focAhU3ciM1/UYBHQVKKzede4zC3y9+IHzU2N/ZF6mbZbhY8S96lOxrO2Y6LMU08+Dbh2xBLmO1bsioLk3Egig==
   dependencies:
     "@fullhuman/postcss-purgecss" "^2.1.2"
     autoprefixer "^9.4.5"
