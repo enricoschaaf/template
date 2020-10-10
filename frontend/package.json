@@ -35,7 +35,7 @@
     "react-ssr-prepass": "npm:preact-ssr-prepass@^1.1.1"
   },
   "devDependencies": {
-    "@next/eslint-plugin-next": "^9.5.4",
+    "@next/eslint-plugin-next": "^9.5.5",
     "@prefresh/next": "^1.2.4",
     "@tailwindcss/ui": "^0.6.2",
     "@types/node": "^14.11.6",

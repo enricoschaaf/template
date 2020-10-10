@@ -1071,10 +1071,10 @@
     postcss "7.0.32"
     purgecss "^2.3.0"
 
-"@next/eslint-plugin-next@^9.5.4":
-  version "9.5.4"
-  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-9.5.4.tgz#911256662f5aeffc2b3807c1479698ae6f8df04a"
-  integrity sha512-NR3bb4KwMiPFwktpF0CYVgTN+wp0HGAB+eSrejvLRjij5RuOW7MQRr7kU5+oILcRjOdlcvxg9R5wytmNwwgQIQ==
+"@next/eslint-plugin-next@^9.5.5":
+  version "9.5.5"
+  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-9.5.5.tgz#b381b4a97c20e8a40a3730a11417f15bb9387467"
+  integrity sha512-OTg0vxAHvWB02mYgWRVTzjLAx3/IY2x7FjNnUUrPfhHS5UUVq4z/xw3rjcCEXCNuKPcJAuA4B4stqllELNId7w==
 
 "@next/react-dev-overlay@9.5.3":
   version "9.5.3"
